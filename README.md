@@ -18,9 +18,11 @@ score: The star rating (1-5) given by the user.
 The initial distribution of scores was highly imbalanced, with a majority of 5-star ratings. To create a more balanced dataset for training, these scores were mapped to three sentiment classes.
 
 ⚙️ Methodology
+
 The project follows a structured approach to building the sentiment analysis model.
 
 1. Data Preprocessing
+   
 Sentiment Mapping: The 1-5 star ratings were converted into three sentiment categories to address class imbalance:
 
 Negative (0): Ratings of 1 or 2.
